@@ -1,0 +1,28 @@
+input{
+    display: block;
+    width: 500px;
+    margin: 50px 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 3px ;
+}
+button{
+    border: none;
+    background-color: rgb(26,188,156);
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 20px;
+    border-radius: 4px;
+    display: block;
+}
+
+.contact .icon::before ,.contact .icon::after{
+    background-color: rgb(44,62,80);
+}
+@media screen and (max-width: 500px) {
+  input {
+    width: 300px;
+  }
+}

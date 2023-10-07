@@ -1,0 +1,34 @@
+.bg-main{
+    background-color: rgb(26,188,156);
+    color: #fff;
+}
+.dark-text{
+    color: rgb(44,62,80);
+}
+.icon{
+    position: relative;
+    display: inline-block;
+}
+.icon::before{
+    content: "";
+    position: absolute;
+    width: 60px;
+    bottom: 40%;
+    right: 150%;
+    height: 4px;
+    background-color: #fff;
+}
+.icon::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    bottom: 40%;
+    left: 150%;
+    height: 4px;
+    background-color: #fff;
+}
+
+
+
+
+

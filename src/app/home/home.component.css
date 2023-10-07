@@ -1,0 +1,9 @@
+.home{
+    min-height: 90vh ;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 10px;
+}

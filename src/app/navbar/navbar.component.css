@@ -1,0 +1,22 @@
+.nav-bg{
+    background-color: rgb(44,62,80);
+}
+.navbar-brand{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-link{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 480px) {
+  .navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+}

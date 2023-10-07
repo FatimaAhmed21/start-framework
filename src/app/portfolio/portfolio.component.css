@@ -1,0 +1,33 @@
+.portfolio .icon::before , .portfolio .icon::after{
+    background-color: rgb(44,62,80);
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(26,188,156);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+.col-md-4:hover .overlay{
+    opacity: .8;
+}
+
+.model{
+    position: fixed;
+    z-index: 1212;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

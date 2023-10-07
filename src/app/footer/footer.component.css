@@ -1,0 +1,14 @@
+.bg-second{
+    background-color: rgb(44,62,80);
+}
+.bg-second-dark{
+    background-color: rgb(26,37,47);
+}
+.icon-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 7px;
+    border: 1px solid #fff;
+}
